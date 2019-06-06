@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Pokedex API</title>
+</head>
+
+<body>
+  <div class="jumbotron bg-danger">
+    <h1 class="display-4 text-center">Pokedex API!</h1>
+  </div>
+  <div class="container-fluid">
+    <!-- ROW FOR THE INPUT FIELD -->
+    <div class="row">
+      <div class="col-12 bg-danger text-right py-2">
+        <input type="text" id="searchThisPokemon" placeholder="What Pokemon do you want to find?">
+        <button type="button" name="button" id="search">Search the Pokemon!</button>
+      </div>
+    </div>
+    <!-- 2 PARTS NAME, NUMBER, PIC LEFT, MOVES RIGHT  -->
+      <div class="row">
+        <div class="col bg-danger d-flex">
+            <div class="col-6 bg-warning" id="info">
+              <h2>Name:</h2>
+              <div class="col" id="name">
+
+              </div>
+              <h2>ID:</h2>
+              <div class="col-12 bg-success" id="idNumber">
+
+              </div>
+              <div class="col bg-light px-5 pb-5" id="picture"></div>
+            </div>
+            <div class="col-6 bg-warning" id="moves">
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2>Previous evolution</h2>
+          <div class="col-12 bg-light" id="evolutionPicture">
+
+          </div>
+          <div class="col-12 bg-dark" id="evolutionName">
+
+          </div>
+        </div>
+      </div>
+
+        <!-- END OF CONTAINER -->
+  </div>
+
+  <script type="text/javascript" src="main.js">
+
+  </script>
+</body>
+
+</html>
