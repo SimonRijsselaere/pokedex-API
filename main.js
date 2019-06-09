@@ -43,7 +43,7 @@ function loadAjax() {
 
     ajax.open("GET", `https://pokeapi.co/api/v2/pokemon/${pokeName}`, true)
     ajax.send();
-  }, 200);
+  }, 20);
 }
 
 // GET THE NAME OF THE PREVIOUS EVOLUTION

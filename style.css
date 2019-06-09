@@ -17,3 +17,19 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+
+
+.input-field{
+  width: 750px;
+  height: 50px;
+}
+
+.nameidpic{
+  width: 750px;
+  height: 300px;
+}
+
+.prevevo{
+  width: 100px !important;
+  height: 200px;
+}
